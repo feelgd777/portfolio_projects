@@ -3,7 +3,7 @@
 Hello, and thanks for stopping by! This repository contains examples of SQL I've written for solo projects and while working through SQL, machine learning, and other data analytics courses. Below are a few highlighted projects, including data visualizations I created using Tableau. Feel free to take a look around and [reach out](https://www.linkedin.com/in/amymartikabrown/) if you have any feedback or questions.
 
 ## Highlighted Projects
-* **Spotify Top Songs Analaysis** - [SQL](https://github.com/feelgd777/SQL_repo/blob/main/Wallmart%20Sales%20Analysis): In this project, I used a dataset found on Kaggle to analyze trends of Walmart sales. I built created a database and used queries to filter data and answer business questions.
+* **Walmart Sales Analaysis** - [SQL](https://github.com/feelgd777/SQL_repo/blob/main/Wallmart%20Sales%20Analysis): In this project, I used a dataset found on Kaggle to analyze trends of Walmart sales. I built created a database and used queries to filter data and answer business questions.
 * **Predictive Book Ratings Analysis** - [SQL](https://github.com/amymartika/SQL/blob/main/Predicting%20Book%20Ratings): In this project, I used my own data from Goodreads to analyze how my book ratings differ from the average ratings found on Goodreads. I categorized the books by genre and obtained the average difference in rating per genre. I created another table containing similar data for books that won the Booker Prize for Fiction from 2000-2021 and joined this data to predict, for each Booker Prize-winning book, what my rating would be.
 
 ### Superstore Profit Dashboard - [Tableau](https://public.tableau.com/app/profile/amymartika/viz/ExecutiveOverview_16733205488000/ExecutiveOverview) 
