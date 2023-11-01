@@ -1,6 +1,6 @@
-# Anton Smirnov's SQL Portfolio
+# Anton Smirnov's Portfolio
 
-Hello, and thanks for stopping by! This repository contains examples of SQL I've written for solo projects and while working through SQL, machine learning, and other data analytics courses. Below are a few highlighted projects, including data visualizations I created using Tableau. Feel free to take a look around and [reach out](https://www.linkedin.com/in/amymartikabrown/) if you have any feedback or questions.
+Hello, and thanks for stopping by! This repository contains examples of Python and SQL and combination of both that I've written for my projects. Below are a few highlighted projects, including data visualizations I created using Tableau. Feel free to take a look around and [reach out](https://www.linkedin.com/in/amymartikabrown/) if you have any feedback or questions.
 
 ## Highlighted Projects
 * **School cafeteria violations analysis** - [Tableau](https://public.tableau.com/app/profile/amymartika/viz/ExecutiveOverview_16733205488000/ExecutiveOverview), [Python and SQL](https://public.tableau.com/app/profile/amymartika/viz/ExecutiveOverview_16733205488000/ExecutiveOverview)]: In this project, I used a dataset found on Kaggle to analyze the nature and causes of School cafeteria violations in New York City boroughs. I focused on critical violations that pose a high risk to public health. My process entailed importing, cleaning, and organizing data and performing EDA in Python and SQL and visualizing with Tableau. 
