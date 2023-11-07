@@ -21,13 +21,13 @@ Using an iterative model building process, we developed three different types of
 
 Based on accuracy score alone, the Bagging classifier was our strongest performing model. The test scores for all three models were relatively close. Bagging classifier was at the top with 85.0% accuracy, the Random Forest classifier had 84.8% accuracy, and the K-Nearest Neighbors classifier had 83.2% accuracy.
 
-![Model Accuracy Results on Test Data](./visualizations/test_accuracy_scores.png)
+![Model Accuracy Results on Test Data](./visualizations/Tanzanian-water-pumps/test_accuracy_scores.png)
 
 While model accuracy is important, other metrics such as precision and recall are important in evaluating model performance with specific regard to model sensitivity to different pump functionalities.
 
 Our goal with these models is to identify non-functional pumps so that organizations can perform repair or replacement. Therefore we've defined 'non functional' as the "positive" case for these precision and recall scores. Recall was the more important metric. In this scenario, recall measures how many non-functional pumps our models are able to detect out of all the non-functional pumps in the dataset. 'False negatives' (i.e. classified 'functional' when it is actually 'non functional') represent a greater risk to water access as pumps that are in need of attention could get overlooked if misclassified by the model.
 
-![Confusion Matrices](./visualizations/confusion_matrices.png)
+![Confusion Matrices](./visualizations/Tanzanian-water-pumps/confusion_matrices.png)
 
 
 Out of our three models, the KNN model has the highest recall score for the 'non functional' category at 0.741. This means that for the test data, it correctly classified 74.1% of non-functional pumps out of all true non-functional pumps in the dataset.The other two models have recall scores within 1-2%: Bagging had a recall score of 0.738 and Random Forest had a recall score of 0.726.
@@ -36,7 +36,7 @@ Precision scores for our models were higher than the recall scores. KNN underper
 
 In choosing a best model, we wanted to take both accuracy and recall into account. Overall, Bagging is our best model with an accuracy score of 0.850 and a recall score of 0.738. The low recall score is a feature we'd like to address if we continued to improve on this model in the future. Given that the precision score for these models is higher than the recall scores, there is room for a tradeoff between recall and precision. Increasing sensitivity to non-functional pumps would improve recall and reduce the number of 'false negatives'.
 
-![Top Feature Importances](./visualizations/bagging_importances.png)
+![Top Feature Importances](./visualizations/Tanzanian-water-pumps/bagging_importances.png)
 
 The top feature importances for the Bagging classifier were all OneHotEncoded features from the 'installer' column. This suggests the 'installer' feature is important to the Bagging classifier's splitting decisions. This suggested there is some sort of relationship between pump installation 
 and pump functionality that could warrant further exploration. There might be a reason why our model highlighted these 10 installers and could be worth 
