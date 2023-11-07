@@ -29,7 +29,7 @@ May 2022 had 2,413 complaints in US â€“ It has doubled from last year metrics â€
 
 As you can see on this graph, based on the data we used for analysis, the top complaint by far is customer service, which ideally should be segmented into more subcategories to identify the precise issue beyond general customer service complaints.
 
-![Negative reasons](./visualizations/Sentiment-analysis-of-US-Airlines/reason1.png)
+![Negative reasons](./visualizations/us-airlines/reason1.png)
 
 
 # Preprocessing
@@ -74,7 +74,7 @@ Correctly predicted 73% of Positive
 
 Correctly predicted 60% of Neutral
 
-![Confusion Matrix](./visualizations/Sentiment-analysis-of-US-Airlines/confusion.png)
+![Confusion Matrix](./visualizations/us-airlines/confusion.png)
 
 
 # Conclusion
