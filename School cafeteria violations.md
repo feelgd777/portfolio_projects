@@ -22,6 +22,9 @@ Main types of cafeteria records:
 * No violations 28%
 * Administrative 5% 
 * Nutrition tobacco and others 3%
+
+
+<img src="./visualizations/cafeteria-violations/violations.png" width="650" height="420">
   
 Analysis with **SQL queries** has shown:
 
@@ -51,6 +54,8 @@ Taking a closer look at population areas (NTAs) on the map, we find that the med
 Some areas immediately draw our attention, such as Borough Park, which exhibits an average of 9.9 cafeteria violations per school. Given our focus on public health risks, we will narrow our analysis to violations related to mice and vermin, as they are the top critical violations. The darkest area on the map with regard to these violations is Greenpoint, Brooklyn, averaging 3 violations per school. However, when considering population as a factor, we identify areas with more pronounced public health risks.
 
 Among areas with populations exceeding 100,000, Borough Park stands out with 133 mice violations across 75 schools. Astonishingly, the top 10 schools in Borough Park account for 51% of all violations in the area. These schools are primarily Jewish orthodox institutions, with only one being public, and the majority of violations originate from private schools.
+
+<img src="./visualizations/cafeteria-violations/Tableau-screen.png" width="900" height="500">
 
 ## Implications
 It is clear that certain areas are disproportionately affected by critical school cafeteria violations, posing higher risks to public health. There is a common belief that private schools often have more substantial budgets than public schools. It's possible that this financial flexibility allows some institutions to inadequately allocate resources for facility maintenance and general hygiene. In densely populated areas like Borough Park, there is a pressing need for increased oversight and regulations to safeguard public health. Therefore, prioritizing inspections in problematic NTAs, particularly in the case of private schools, is essential for the well-being of the public.
