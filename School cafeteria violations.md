@@ -46,7 +46,7 @@ _____________________________________
 
 ## Where do these violation happen?
 
-Brooklyn stands out as having the highest average violation count per school, with an average of 6 violations. This is noteworthy because, even though Brooklyn is slightly larger in terms of population compared to Queens, it has approximately 300 more registered schools as of 2023 and undergoes inspections almost twice as frequently as Queens. This could be attributed to the higher number of violations in Brooklyn, leading to more frequent inspections to ensure compliance and safety.
+Brooklyn stands out as having the highest average violation count per school, with an average of 6 violations. Brooklyn is slightly larger in terms of population compared to Queens, but it has over 200 more registered schools as of 2023 and undergoes inspections almost twice as frequently as Queens. This could be attributed to the higher number of violations in Brooklyn, leading to more frequent inspections to ensure compliance and safety.
 
 ## Examining Population Areas
 
