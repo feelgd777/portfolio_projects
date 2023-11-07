@@ -55,7 +55,7 @@ Among areas with populations exceeding 100,000, Borough Park stands out with 133
 ## Implications
 It is clear that certain areas are disproportionately affected by critical school cafeteria violations, posing higher risks to public health. There is a common belief that private schools often have more substantial budgets than public schools. It's possible that this financial flexibility allows some institutions to inadequately allocate resources for facility maintenance and general hygiene. In densely populated areas like Borough Park, there is a pressing need for increased oversight and regulations to safeguard public health. Therefore, prioritizing inspections in problematic NTAs, particularly in the case of private schools, is essential for the well-being of the public.
 
-## Proposed Solutions
+# Proposed Solutions
 In light of our findings, we recommend the following solutions:
 
 Implement stringent requirements for private schools to ensure compliance with health and safety standards.
