@@ -27,9 +27,9 @@ Twitter data was scraped from February of 2015 and contributors were asked to fi
 
 May 2022 had 2,413 complaints in US – It has doubled from last year metrics – according to airtravel consumer report published by Department of Transportation’s Bureau of Transportation Statistics Feedback that is available, generally lacks granularity, being generalized between customer service issue, Late or bad flight, or problems with luggage.
 
-As you can see on this graph, based on the data we used for analysis, the top complaint by far is customer service, which ideally should be segmented into more subcategories to identify the precise issue beyond general customer service complaint.
+As you can see on this graph, based on the data we used for analysis, the top complaint by far is customer service, which ideally should be segmented into more subcategories to identify the precise issue beyond general customer service complaints.
 
-![Negative reasons](./Visualizations/reason1.png)
+![Negative reasons](./visualizations/Sentiment-analysis-of-US-Airlines/reason1.png)
 
 
 # Preprocessing
@@ -74,7 +74,7 @@ Correctly predicted 73% of Positive
 
 Correctly predicted 60% of Neutral
 
-![Confusion Matrix](./Visualizations/confusion.png)
+![Confusion Matrix](./visualizations/Sentiment-analysis-of-US-Airlines/confusion.png)
 
 
 # Conclusion
@@ -90,16 +90,3 @@ Here are some areas for further investigation to produce an improved model:
 - Improve model performance on Positive and Neutral labels: More relevant and balanced data is required.
 
 - Train model on current data in order to improve its' performance on current tweets.
-
-## Repository Structure
-
-```
-├── Data
-│   └── Tweets.csv
-├── Visualizations
-│   ├── confusion.png
-│   └── reason1.png
-├── README.md
-├── Final_notebook.pdf
-└── presentation_nlp_tweets.pdf 
-```
