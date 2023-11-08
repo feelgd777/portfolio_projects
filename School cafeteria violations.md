@@ -9,8 +9,9 @@ This analysis is intended to gain an overall understanding of public and private
 # Data Understanding
 
 NYC law requires a minimum of 2 inspections in a school building, each school year unannounced.
-Our data is on 7,662 violations, 2,125 of which are critical. Critical violations are more likely to contribute to food-borne illnesses are considered critical. 
-They are a substantial risk to the public’s health. Undersanding the sources of violations will aid in targeting problematic areas.
+Our data is on 7,662 violations, 2,125 of which are critical. Null values in ViolationDescription column indicate that no violation was found.
+The violations that are more likely to contribute to food-borne illnesses are considered critical.
+They are a substantial risk to the public’s health. Understanding the sources of violations will aid in targeting problematic areas.
 
 
 # Data Analysis
