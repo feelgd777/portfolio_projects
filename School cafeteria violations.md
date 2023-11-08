@@ -8,9 +8,8 @@ This analysis is intended to gain an overall understanding of public and private
 
 # Data Understanding
 
-NYC law requires a minimum of 2 inspections in a school building, each school year unannounced.
-Our data is on 7,662 violations, 2,125 of which are critical. Null values in ViolationDescription column indicate that no violation was found.
-The violations that are more likely to contribute to food-borne illnesses are considered critical.
+The dataset contains current inspection data for cafeterias permitted in public, private, and parochial schools in NYC. It is provided by Department of Health and Mental Hygiene. The link to the dataset can be found [here](https://data.cityofnewyork.us/Health/DOHMH-School-Cafeteria-Inspections-2020-Present-/5ery-qagt).
+Our dataset is on 7,662 violations, 2,125 of which are critical. The violations that are more likely to contribute to food-borne illnesses are considered critical.
 They are a substantial risk to the public’s health. Understanding the sources of violations will aid in targeting problematic areas.
 
 
@@ -27,22 +26,24 @@ Main types of cafeteria records:
 
 <img src="./visualizations/cafeteria-violations/violations.png" width="550" height="350">
   
-Analysis with **SQL queries** has shown:
+The analysis with **SQL queries** has provided several key insights, including:
 
-The count of private and public schools in our data  
-The average number of violations per school  
-The total count of violations  
-The count of unique critical and general violations  
-The count of violations by school type  
-The distribution of critical and general violations by school type   
-Percentage of all violations by school type  
-Average number of violations per school by school type  
-Top 10 categories for critical violations  
-Top 10 types of critical violations  
-Most common critical cafeteria violations  
-A comparison of NYC boroughs based on the number of violations and average violations per school  
-Average number of violations per school by borough  
-Count of critical violations per neighborhood  
+1.  The count of private and public schools in the dataset.
+2.  The average number of violations per school.
+3.  The total count of violations.
+4.  The count of unique critical and general violations.
+5.  The count of violations by school type.
+6.  The distribution of critical and general violations by school type.
+7.  The percentage of all violations by school type.
+8.  Average number of violations per school by school type.
+9.  The top 10 categories for critical violations.
+10. The top 10 types of critical violations.
+11. The most common critical cafeteria violations.
+12. A comparison of NYC boroughs based on the number of violations and average violations per school.
+13. The average number of violations per school by borough.
+14. The count of critical violations per neighborhood.
+
+These insights provide a comprehensive understanding of the cafeteria violations dataset and help identify patterns and areas of concern related to school cafeterias in NYC.
 _____________________________________
 
 ## Where do these violation happen?
