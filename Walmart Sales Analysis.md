@@ -5,7 +5,7 @@ This project is designed to explore the Walmart Sales data to understand top per
 To gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
 
 ## Data:
-This dataset contains sales transactions from a three different branches of Walmart located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
+This dataset contains sales transactions from a three different branches of Walmart located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows. The data can be found [here](./data/WalmartSalesData.csv).
 
 | Column                  | Description                             | Data Type      |
 | :---------------------- | :-------------------------------------- | :------------- |
