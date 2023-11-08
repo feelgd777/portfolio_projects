@@ -24,7 +24,7 @@ Main types of cafeteria records:
 * Nutrition tobacco and others 3%
 
 
-<img src="./visualizations/cafeteria-violations/violations.png" width="650" height="420">
+<img src="./visualizations/cafeteria-violations/violations.png" width="550" height="350">
   
 Analysis with **SQL queries** has shown:
 
