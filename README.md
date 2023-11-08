@@ -1,6 +1,6 @@
 # Anton Smirnov's Portfolio
 
-Hello, and thank you for stopping by! This repository contains examples of Python and SQL, as well as combinations of both, that are related to my projects. Below, you'll find a selection of highlighted projects, along with data visualizations I created with Tableau and matplotlib. Feel free to explore, and don't hesitate to [reach out](https://www.linkedin.com/in/anton-smirnov-89886332/).
+Hello, and thank you for stopping by! This repository contains examples of Python and SQL, as well as combinations of both, that are related to my data analytics projects. Below, you'll find a selection of highlighted projects, along with data visualizations I created with Tableau and matplotlib. Feel free to explore, and don't hesitate to [reach out](https://www.linkedin.com/in/anton-smirnov-89886332/).
 
 ## Highlighted Projects
 * **[School cafeteria violations analysis](https://github.com/feelgd777/SQL_repo/blob/main/School%20cafeteria%20violations.md)** with SQL, Python, Tableau  
