@@ -21,7 +21,7 @@ Using an iterative model building process, we developed three different types of
 
 Based on accuracy score alone, the Bagging classifier was our strongest performing model. The test scores for all three models were relatively close. Bagging classifier was at the top with 85.0% accuracy, the Random Forest classifier had 84.8% accuracy, and the K-Nearest Neighbors classifier had 83.2% accuracy.
 
-![Model Accuracy Results on Test Data](./visualizations/Tanzanian-water-pumps/test_accuracy_scores.png)
+<img src="./visualizations/Tanzanian-water-pumps/test_accuracy_scores.png" width="470" height="380">
 
 While model accuracy is important, other metrics such as precision and recall are important in evaluating model performance with specific regard to model sensitivity to different pump functionalities.
 
