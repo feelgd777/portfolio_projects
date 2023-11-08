@@ -27,8 +27,24 @@ This dataset oroginally found on Kaggle contains sales transactions from three d
 | gross_income            | Gross Income                            | DECIMAL(10, 2) |
 | rating                  | Rating                                  | FLOAT(3, 1)    |
 
+## Analysis:
+The SQL queries and modifications to the "sales" table have focused on data engineering and exploration. Key findings from the analysis include:
 
-    CREATE TABLE IF NOT EXISTS sales (
+* Generic insights: Identified unique cities, matched branches to cities, and determined the most common payment method.
+
+* Product-related insights: Discovered the number of unique product lines, the top-selling product line, and the product line with the largest revenue.
+
+* Revenue and cost analysis: Analyzed total revenue by month, cost of goods sold by month, city with the largest revenue, and product line with the largest VAT (tax).
+
+* Sales analysis: Determined the branch with above-average product sales, the most common product line by gender, and the average rating for each product line.
+
+* Customer insights: Investigated customer preferences, including customer types, gender, the time of day customers give the highest rating, and the day of the week with the highest ratings.
+
+
+------------------------------------------------------------------------------
+
+
+	CREATE TABLE IF NOT EXISTS sales (
     	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
     	branch VARCHAR(5) NOT NULL,
     	city VARCHAR(30) NOT NULL,
@@ -57,9 +73,6 @@ This dataset oroginally found on Kaggle contains sales transactions from three d
 
 	ALTER TABLE sales  
 	MODIFY COLUMN rating FLOAT(3, 1);  
-
-
-------------------------------------------------------------------------------
 ### Feature Engineering
 
 #### time_of_day
@@ -297,5 +310,7 @@ This dataset oroginally found on Kaggle contains sales transactions from three d
 	GROUP BY day_name  
 	ORDER BY avg_rating DESC;  
 
+## Summary:
+These queries have provided valuable insights into various aspects of the sales data, enabling a deeper understanding of customer behavior, product performance, and revenue trends.
 
 
