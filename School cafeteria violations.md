@@ -3,7 +3,7 @@
 
 # Overview
 
-This analysis is intended to gain an overall understanding of public and private school cafeteria violations, contrast and compare the quantity and the nature of violations in different neighborhoods and identify the areas that pose the greatest risk to public health. The analysis is conducted via **[SQL and Python](https://github.com/feelgd777/SQL_repo/blob/main/notebooks/School%20cafeteria%20violations.ipynb)**, and the visualization is done with **[Tableau](https://public.tableau.com/views/Cafeteriaviolations/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)**.
+This study aims to comprehensively understand cafeteria violations in public and private schools, comparing their frequency and severity across various neighborhoods to pinpoint areas with significant public health risks. The analysis is executed using **[SQL and Python](https://github.com/feelgd777/SQL_repo/blob/main/notebooks/School%20cafeteria%20violations.ipynb)**, and the visualization is done with **[Tableau](https://public.tableau.com/views/Cafeteriaviolations/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)**.
 
 
 # Data Understanding
