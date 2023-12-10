@@ -3,7 +3,7 @@
 
 # Overview
 
-Interpreting and classifying opinions and emotions in subjective data is referred to as sentiment analysis. Sentiment analysis of customer experience is applied in various industries, such as finance, business, politics, and risk assessment. There are various machine learning, artificial intelligence, and deep learning techniques. In this project machine leargning models are created and configured for optimal predictive analysis of customers' tweets. Through an iterative modeling process, we produced a model that predicted negative tweets with 88% accuracy. By identifying tweets with negative sentiment, airlines can divert resources to the weak areas of customer satisfaction.
+Sentiment analysis, a technique for interpreting emotions and opinions in data, is widely used in industries like finance, business, and politics to enhance customer experience. This project leverages machine learning to analyze airline customer tweets, resulting in a model that predicts negative sentiments with 88% accuracy. This enables airlines to focus on improving customer satisfaction in areas where it's needed most. Explore my Python-based analysis in this notebook: [Sentiment Analysis of US Airlines Tweets](https://github.com/feelgd777/SQL_repo/blob/main/notebooks/Sentiment%20analysis%20of%20US%20Airlines%20tweets.ipynb).
 
 # Business Understanding
 
