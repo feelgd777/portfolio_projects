@@ -3,7 +3,7 @@
 
 # Overview
 
-This project consists of classification models to identify water pump functionality in Tanzania. Limited access to safe water is a major health risk. These models are potential tools for government agencies or non-governmental organizations to identify areas with limited access to clean water. Through an iterative modeling process, we produced a model that predicted pump functionality with 85% accuracy. By identifying non-functional water pumps, organizations can divert resources to areas in need of assistance and improve water access and health in Tanzania.
+In this project, I've developed classification models to assess water pump functionality in Tanzania, where access to clean water is a critical health concern. My [Cleaning Jupyter Notebook](https://github.com/feelgd777/SQL_repo/blob/main/notebooks/Tanzanian_pumps_cleaning.ipynb) and [Modeling Jupyter Notebook](https://github.com/feelgd777/SQL_repo/blob/main/notebooks/Tanzanian_pumps_modeling.ipynb) detail the process of creating a model that predicts pump functionality with 85% accuracy. This tool is essential for guiding government and Non-Governmental Organization efforts to improve water access by targeting areas with non-functional water pumps.
 
 # Business Understanding
 
