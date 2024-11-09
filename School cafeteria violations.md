@@ -48,18 +48,73 @@ _____________________________________
 
 ## Where do these violation happen?
 
-Brooklyn stands out as having the highest average violation count per school, with an average of 6 violations. Brooklyn is slightly larger in terms of population compared to Queens, but it has over 200 more registered schools as of 2023 and undergoes inspections almost twice as frequently as Queens. This could be attributed to the higher number of violations in Brooklyn, leading to more frequent inspections to ensure compliance and safety.
+To determine the average number of violations per school by borough, we ran the following SQL query:
+
+```sql
+SELECT 
+    Borough,
+    ROUND(CAST(COUNT(ViolationDescription) AS FLOAT) /
+    COUNT(DISTINCT "Record ID"), 1) as "Average violations",
+    COUNT(DISTINCT "Record ID") as "Number of Schools"
+FROM schools
+WHERE ViolationDescription != 'no violation'
+GROUP BY Borough
+ORDER BY "Average violations" DESC;
+```
+***SQL Query Output:***
+
+| Borough        | Average Violations | Number of Schools |
+|----------------|--------------------:|-------------------:|
+| Brooklyn       | 6.0                | 635                |
+| Queens         | 3.9                | 400                |
+| Manhattan      | 3.7                | 312                |
+| Bronx          | 3.1                | 297                |
+| Staten Island  | 2.9                | 79                 |
 
 
-<img src="./visualizations/cafeteria-violations/sql-example.png" width="530" height="600">
+Brooklyn stands out as having the highest average violation count per school, with an average of 6 violations. Brooklyn is slightly larger in terms of population compared to Queens, but it has over 200 more registered schools as of 2023 and undergoes inspections almost twice as frequently as Queens. This could be attributed to the higher number of violations in Brooklyn, leading to more frequent inspections to ensure compliance and safety.<br><br>
 
 ## Examining Population Areas
 
-Taking a closer look at population areas (NTAs) on the map, we find that the median population for these areas is 54,000, with the highest population recorded at 132,000.
-Some areas immediately draw our attention, such as Borough Park, which exhibits an average of 9.9 cafeteria violations per school. Given our focus on public health risks, we will narrow our analysis to violations related to mice and vermin, as they are the top critical violations. The darkest area on the map with regard to these violations is Greenpoint, Brooklyn, averaging 3 violations per school. However, when considering population as a factor, we identify areas with more pronounced public health risks.
+
+
+Taking a closer look at population areas (NTAs) on the map, we find that the median population for these areas is 54,000, with the highest population recorded at 132,000. Some areas immediately draw our attention, such as Borough Park, which exhibits an average of 9.9 cafeteria violations per school. Given our focus on public health risks, we will narrow our analysis to violations related to mice and vermin, as they are the top critical violations.
+
+### SQL Analysis:
+To identify the neighborhoods with the highest concentration of mice and vermin violations, we used the following SQL query:
+
+```sql
+SELECT 
+    "NTA Name", 
+    COUNT(*) AS "Critical violations"
+FROM schools
+WHERE ViolationLabel = 'Mice, rats, vermin'
+GROUP BY "NTA Name"
+ORDER BY "Critical violations" DESC
+LIMIT 10;
+```
+
+**SQL Query Output**
+
+| NTA Name                | Critical Violations |
+|-------------------------|---------------------:|
+| Borough Park            | 133                 |
+| Williamsburg            | 50                  |
+| Bedford                 | 30                  |
+| Canarsie                | 23                  |
+| Rugby-Remsen Village    | 22                  |
+| Flatbush                | 21                  |
+| East New York           | 20                  |
+| Sunset Park West        | 19                  |
+| Crown Heights South     | 19                  |
+| Bushwick South          | 19                  |
+
+*This table displays the top 10 neighborhoods with the highest number of mice and vermin violations.*
 
 Among areas with populations exceeding 100,000, Borough Park stands out with 133 mice violations across 75 schools. Astonishingly, the top 10 schools in Borough Park account for 51% of all violations in the area. These schools are primarily Jewish orthodox institutions, with only one being public, and the majority of violations originate from private schools.
 
+### Tableau Visualization:
+The Tableau visualization below further illustrates these findings, highlighting Borough Park as a significant public health concern. The darkest area on the map, Greenpoint, Brooklyn, averages 3 violations per school, but when considering population as a factor, Borough Park's risk is more pronounced. Astonishingly, the top 10 schools in Borough Park account for 51% of all violations in the area. These schools are primarily Jewish orthodox institutions, with only one being public, and the majority of violations originate from private schools.
 
 <img src="./visualizations/cafeteria-violations/Tableau-screen.png" width="900" height="500">
 
